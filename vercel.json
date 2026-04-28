@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "web-app-service",
+  "rewrites": [
+    { 
+      "source": "/(.*)", 
+      "destination": "/api/main",
+      "comment": "Route all incoming requests to the main API handler for centralized processing"
+    }
+  ],
+  "trailingSlash": false,
+  "comment": "Configuration for Vercel deployment. This setup ensures all traffic goes through our edge function."
+}
