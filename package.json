@@ -11,6 +11,5 @@
     "web-service",
     "request-handler",
     "api"
-  ],
-  "comment": "Package metadata for the web application service. Designed to run on Vercel's edge infrastructure for low-latency request processing."
+  ]
 }
