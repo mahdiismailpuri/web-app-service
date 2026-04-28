@@ -4,10 +4,8 @@
   "rewrites": [
     { 
       "source": "/(.*)", 
-      "destination": "/api/main",
-      "comment": "Route all incoming requests to the main API handler for centralized processing"
+      "destination": "/api/main"
     }
   ],
-  "trailingSlash": false,
-  "comment": "Configuration for Vercel deployment. This setup ensures all traffic goes through our edge function."
+  "trailingSlash": false
 }
